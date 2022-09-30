@@ -1,60 +1,39 @@
-@font-face {
-	font-family: Gotham Rounded;
-	src: url("font.otf") format("opentype");
-}
-
-*, *::before, *::after {
-	box-sizing: border-box;
-	font-family: Gotham Rounded;
-}
-
-body {
-	padding: 0;
-	margin: 0;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	width: 100vw;
-	height: 100vh;
-	background: url("bg.jpeg") no-repeat fixed center;
-	background-size: cover;
-}
-
 .container {
-	width: 700px;
-	max-width: 90%;
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.black {
-	background-color: black;
-	padding: 10px;
-	text-align: center;
-	border-radius: 20px;
-	box-shadow: 0 0 10px 2px;
+h2.question {
+  text-align: center;
+
+  @media (min-width: 768px) {
+    font-size: 3rem;
+  }
 }
 
-.answer {
-	display: grid;
-	grid-template-columns: repeat(1, auto);
-	gap: 10px;
+div.buttons-container {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
 }
 
-.btn {
-	border-radius: 10px;
-	padding: 5px 10px;
-	font-size: 30px;
-	background-color: #f7ce6a;
-	outline: none;
-	color: black;
-	text-decoration: none;
-}
+a.answer-button {
+  width: 500px;
+  height: 55px;
+  border-radius: 8px;
+  color: var(--white);
+  background-color: var(--primary);
+  font-weight: 600;
 
-.black h1 {
-	color: yellow;
-}
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-.black p {
-	font-size: 18px;
-	color: white;
+  font-size: 1.25rem;
 }
