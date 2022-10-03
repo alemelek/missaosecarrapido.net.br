@@ -17,7 +17,7 @@ body {
 	align-items: center;
 	width: 100vw;
 	height: 100vh;
-	background: url("bg.jpeg") no-repeat fixed center;
+	background: #f2e5de;
 	background-size: cover;
 }
 
@@ -27,7 +27,7 @@ body {
 }
 
 .black {
-	background-color: black;
+	background-color: #f2e5de;
 	padding: 10px;
 	text-align: center;
 	border-radius: 20px;
