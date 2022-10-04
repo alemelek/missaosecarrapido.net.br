@@ -17,7 +17,7 @@ body {
 	align-items: center;
 	width: 100vw;
 	height: 100vh;
-	background: url("bg.jpeg") no-repeat fixed center;
+	background: #e58c6c;
 	background-size: cover;
 }
 
@@ -27,7 +27,7 @@ body {
 }
 
 .black {
-	background-color: black;
+	background-color: #f2e5de;
 	padding: 10px;
 	text-align: center;
 	border-radius: 20px;
@@ -44,17 +44,17 @@ body {
 	border-radius: 10px;
 	padding: 5px 10px;
 	font-size: 30px;
-	background-color: #f7ce6a;
+	background-color: #e58c6c;
 	outline: none;
-	color: black;
+	color: Black;
 	text-decoration: none;
 }
 
 .black h1 {
-	color: yellow;
+	color: Black;
 }
 
 .black p {
 	font-size: 18px;
-	color: white;
+	color: Black;
 }
